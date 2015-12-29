@@ -1,0 +1,457 @@
+html,body{
+ 	height: 100%;
+   	width: 1280px;;
+	position: relative;
+	margin: 0 auto;
+
+	background-color: #e8e8e8;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: 700;
+	
+}
+/*********************************************
+*NAVIGATION
+*********************************************/
+.navigation{
+	height: 80px;
+
+	text-align: center;
+	line-height: 70px;
+}
+.menu{
+	min-width: 960px;
+	margin-left: 15%;
+}
+	.menu a:hover{
+		border-bottom: 2px solid black;
+	}
+	.menu__item{
+		margin-left: 20px;
+
+		color: #000000;
+		text-decoration: none;
+	}
+	.menu__item--phone{
+		margin-left: 40px;
+		
+		background: #9d9d9d;
+		padding: 36px;
+
+		color: #e8e8e8;
+		font-size: 16px;
+		cursor: pointer;
+	}
+/**********************************************
+*APPLICATION FORM
+***********************************************/
+.application-form{
+	height: 340px;
+	display:flex;
+}
+	.application-form__description{
+		min-width: 880px;
+		height: 340px;
+		text-align: center;
+	}
+	.application-form__description._1{
+		background: url('/images/1.png');
+	}
+	.application-form__description._2{
+		background: url('/images/6.png');
+	}
+	.application-form__description._3{
+		background: url('/images/7.png');	
+	}
+	
+		.application-form__description--title{
+			display:inline-block;
+			margin-top: 40px;
+			background: #bf1927; 
+			padding: 10px;
+			
+			color: #e8e8e8;
+		}
+		.application-form__description--title p{
+			text-align: left;
+			margin: 0;
+		}
+		.application-form__description--title._inversion{
+			background: #ffffff;
+			color:  #bf1927;
+			padding: 10px;
+			margin-top: 190px;
+		}
+		.application-form__description--title._inversion p{
+			text-align: left;
+			margin: 0;
+		}
+		
+	.application-form__field{
+		display: inline-block;
+		min-width: 400px;
+		height: 340px;
+		background: #bf1927;
+	}
+	.application-form__field._inversion{
+		background: #ffffff;
+	}
+		.application-form__form{
+			width: 234px;
+			margin: 30px 20%;
+			margin: 5% auto;
+		}
+			.application-form__form--title{
+				display: inline-block;
+				color: #bf1927;
+				background: #ffffff;
+				padding: 5px;
+				margin-bottom: 0;
+			}
+			.application-form__form--title._inversion{
+				background: #bf1927;
+				color: #ffffff;
+			}
+			.application-form__form--item{
+				border-bottom: 1px solid #ffffff;
+			}
+			.error{
+				border-bottom: 1px solid #ff3e3e;
+			}
+			.application-form__form--item._inversion{
+				border-bottom: 1px solid #bf1927;
+			}
+			input[type="text"]{
+				border: none;
+				background: #bf1927;
+				color: #ffffff;
+				height: 20px;
+				width: 100%;
+			}
+			::-webkit-input-placeholder {
+				color: #ffffff;
+				font-size: 10px;
+				font-weight: 400;
+			}
+			:-moz-placeholder{
+				color: #ffffff;
+				font-size: 10px;
+				font-weight: 400;
+			}
+			:-ms-input-placeholder{
+				color: #ffffff;
+				font-size: 10px;
+				font-weight: 400;
+			}
+			.application-form__form--item._inversion input[type="text"]{
+				background: #ffffff;
+				color: #bf1927;
+			}
+			.application-form__form--item._inversion input[type="text"]::-webkit-input-placeholder{
+				color: #bf1927;
+			}
+			
+			.application-form__form--button{
+				display: inline-block;
+				background-color:  #bf1927;
+				text-decoration: none;
+				color:  #ffffff;
+				font-size: 14px;
+				font-weight: 700;
+				border: 3px solid #e8e8e8;
+				padding: 10px 80px;
+				margin-top: 20px;
+				cursor: pointer;
+			}
+			
+			.application-form__form--button._inversion {
+				background-color:  #ffffff;
+				color:  #bf1927;
+				border: 3px solid #bf1927;
+				margin-top: 5px;
+			}
+			.application-form__form--button:hover {
+				background-color:  #ffffff;
+				color:  #bf1927;
+			}
+			.application-form__form--button._inversion:hover {
+				background-color:  #bf1927;
+				color:  #ffffff;
+			}
+ /************************************************
+ *TITLE
+ ************************************************/
+.title{
+	font-size: 20px;
+	margin: 50px;
+}
+/*************************************************
+*CONTAINER
+**************************************************/
+.container{
+		background-color:  #cbcbcb;
+		min-width:1280px;
+}
+	.content{
+		display:flex;
+		height: 396px;
+		margin-top:25px;
+		font-size: 16px;
+	}
+	.content__specification{
+		display:none;
+		position:relative;
+		margin: 60px;
+		padding:40px;
+		color:  #000000;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	.content__specification img{
+		position:absolute;
+		top: -10px;
+		right: -10px;
+		cursor:pointer;
+	}
+	.content__specification span{
+		font-weight:700;
+	}
+
+		.content__image{
+			width: 560px;
+			height: 396px;
+		}
+		.content__description{
+			margin: 60px 100px;
+			
+			
+		}
+			.content__description--title{
+				color:  #e8e8e8;
+				font-size: 16px;
+				font-weight: 700;
+				display:inline-block;
+				background-color:  #bf1927;
+				padding: 5px 10px;
+				margin-left: 40px;
+			}
+			.content__description li{
+			    color:#bf1927;
+			    padding-left: 10px;
+			}
+			.content__description p{
+				color:  #000000;
+				font-size: 14px;
+				font-weight: 400;
+				margin: 3px;
+			}   
+			.content__description span{
+				font-weight: bold;
+			}
+		.content__description--button{
+			display:inline-block;
+			color:  #bf1927;
+			border:3px solid #bf1927;
+			padding:10px 50px;
+			margin: 20px 50px;
+		}
+		.content__description--button:hover{
+			color:  #ffffff;
+			background-color:  #bf1927;
+			cursor:pointer;
+		}
+
+/**********************************************
+*EQUIPMENT
+**********************************************/
+.equipment{
+	display: flex;
+	margin-bottom: 60px;
+}
+.equipment__item{
+	position: inherit;
+	display: inline-block;
+	width: 320px;
+	margin: 0 45px;
+	
+	font-size: 16px;
+	font-weight: 700;
+}
+	.equipment__item--title{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		height: 50px;
+		margin-bottom:10px;
+	}
+	.equipment__item--image{
+		background-color:  #ffffff;
+		width: 320px;
+		height: 200px;
+	}
+	.equipment__item--description{
+		background-color:  #bf1927;
+		width: 320px;
+		height: 84px;
+		cursor:pointer;
+	}
+	.equipment__item--description-hover{
+		background-color:  #1e222f;
+	}
+	.equipment__item--description span{
+		color:  #ffffff;
+		font-size: 14px;
+		font-weight: 700;
+		margin: 20px;
+	}
+	.equipment__item--icon{
+		display: inline-block;
+		background-color:  #1e222f;
+		width: 58px;
+		height: 84px;
+		
+		color: #ffffff;
+		font-size: 30px;
+		text-align: center;
+		line-height: 85px;
+	}
+/*****************************************
+*EQUIPMENT-SPECIFICATION
+*****************************************/
+.equipment-specification{
+	position:absolute;
+	width: 1280px;
+	height: 720px;
+	background-color: #e8e8e8;
+	display: none;
+	
+	z-index:2;
+	top: 2090px;
+	left: 0;
+	
+}	
+	.equipment-specification__table{
+		width: 495px;
+		height: 681px;
+		margin: 30px 75px 30px 50px;
+	}
+	.equipment-specification-definition img{
+		float: right;
+		cursor: pointer;
+	}
+	.equipment-specification-definition--image{
+		width: 560px;
+		height: 210px;
+		margin: 70px 0 0;
+	}
+	.equipment-specification-definition--title{
+		background-color:  #bf1927;
+		width: 560px;
+		height: 364px;
+		color:  #ffffff;
+	}
+	.equipment-specification-definition--title p{
+		font-size: 14px;
+		font-weight: 400;
+		padding: 100px 95px;
+		margin: 0;
+		line-height: 22px;
+	}
+	.equipment-specification-definition--title span{
+		font-size: 16px;
+		font-weight: 700;
+	}
+/******************************************************
+*PRODUCTS
+*******************************************************/
+.products{
+	margin: 55px 0 70px 50px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+}
+	.products__item{
+		display: inline-block;
+		width: 278px;
+		margin: 0 0 8px 2px;
+	}	
+		.products__item--image{
+			width: 278px;
+			height: 188px
+		}
+		.products__item--name{
+			height: 60px;
+			text-align: center;
+			background-color:  #1e222f;
+			overflow: hidden;
+		}
+			.products__item--name p{
+				margin: 18px 0;
+			}
+		    
+/******************************************
+*BASEMENT
+*******************************************/
+.basement{
+	height: 648px;
+	background-color: #dddddd;
+	display: flex;
+	
+	font-size: 14px;
+	font-weight: 400;
+	color:  #000000;
+	line-height: 24px;
+	
+}	
+	.basement-map{
+		width: 635px;
+		height: 648px;
+	}
+	.basement-contact{
+		width: 635px;
+	}
+	.basement-contact__description{
+		width: 215px;
+   		margin: 20% auto;
+	}
+	.basement-contact__description span{
+		font-weight: 700;
+	}
+/******************************************
+*REQUEST
+******************************************/
+.request{
+	display: none;
+	position: fixed;
+	top: 100px;
+	left: 478px;
+	background: #bf1927;
+	width: 400px;
+	height: 297px;
+}
+	.request__close{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+	    top: -31px;
+	    right: 0;
+	    background: url(../images/close_request.png) 55% 55% no-repeat  #bf1927;
+	    cursor: pointer;
+	}
+	.request__close:hover{
+		background: url(../images/close_request-red.png) 55% 55% no-repeat  #ffffff;
+	}
+	.request__accept{
+		display: none;
+		color:  #ffffff;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 25px;
+	}
+		.request__accept p{
+			padding: 70px;
+		}
+	.request-form{
+		display: none;
+	}
